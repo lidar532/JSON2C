@@ -1,16 +1,16 @@
 # JSON2C
-Convert JSON string to a "C" sprintf formatting string.  Runs online in Google Colab.
+ Transform a JSON string to a "C/C++" sprintf formatting string for simple JSON serialization.  Runs online in Google Colab.
 
 Click [<img src=https://colab.research.google.com/assets/colab-badge.svg>](https://colab.research.google.com/github/lidar532/JSON2C/blob/main/JSON2C.ipynb)
 to run JSON2C now.
 
 ## Description
 If you sometimes have a need or desire to generate *low overhead* JSON strings for an Arduino or other 
-"C" project, JSON2C can help. Creating JSON strings by hand is a painstaking, time consuming, tedious activity 
+"C/C++" project, JSON2C can help. Creating JSON strings by hand is a painstaking, time consuming, tedious activity 
 requiring lots of time in the edit->compile->test->debug development loop. JSON librarys certainly help, but 
 also can add considrable to you code and frequently provide more capability than actually needed.  
 
-This tool presumes that you only have a need to write out JSON data, and do not have a need to 
+This tool presumes that you only have a need to generated serialized JSON data, and do not have a need to 
 decode JSON data strings.
 
 ## Usage
@@ -21,10 +21,10 @@ Once you have the `js` loaded, click the `run` button in the next cell to conver
 [JASONata](https://try.jsonata.org/) or 
 [JSON Editor Online](https://jsoneditoronline.org/) or 
 other JSON tool to build, verify, and test your JSON string.
-Simply use "C" formatting specifiers in the place of the JSON values, and JSON2C will generate the "C" formatting string for you.
+Simply use "C/C++" formatting specifiers in the place of the JSON values, and JSON2C will generate the "C/C++" formatting string for you.
 
 Note that you can enter a "C" comment by using the "comment_" JSON key and placing your comment text as the value string. 
-You can name your "C" format variable with the JSON key "format_name_" with the desired "C" name in the value string. 
+You can name your "C/C++" format variable with the JSON key "format_name_" with the desired "C" name in the value string. 
 See examples below. 
 I enclosed my JSON in triple quotes ''' but it should work ok with single quotes as well. 
 
@@ -100,3 +100,5 @@ const char my_name[] = ""
 "";
 
 ```
+
+
