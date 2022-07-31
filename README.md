@@ -38,7 +38,7 @@ js = '''
   "comment_": " This is a comment. It can contain numbers and any of the following chars {}[],.;?<>| %^&*()@#$ : %!",
   "myJSON": {
     "dest": "%s",
-    "sss": "%-19.2f",
+    "sss": "%0.2f",
     "flash": [
       "%f",
       "%4.2lf",
