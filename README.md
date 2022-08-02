@@ -30,7 +30,9 @@ I enclosed my JSON in triple quotes ''' but it should work ok with single quotes
 
 ## Examples
 
-This example shows the `js` variable loaded with some JSON.
+This example shows the `js` variable loaded with some JSON.  You can compile and run various example "C" programs wth the JSON2C_examples.ipynb notebook. You can access it by clicking here:
+[<img src=https://colab.research.google.com/assets/colab-badge.svg>](https://colab.research.google.com/github/lidar532/JSON2C/blob/main/JSON2C_examples.ipynb)
+
 ```
 js = '''
 { 
