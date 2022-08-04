@@ -103,4 +103,9 @@ const char my_name[] = ""
 
 ```
 
+## Tools used
+The regex expressions were developed using: [regex101.com](https://regex101.com/).  Generated "C" code was tested 
+using [onlinegdb.com](https://www.onlinegdb.com/#) as well as [Google Colab Examples](https://www.onlinegdb.com/#) and running the gcc complier inside example cells.
+JSON data structures were developed and tested end-to-end using [JASOnata.](https://try.jsonata.org/)
+
 
