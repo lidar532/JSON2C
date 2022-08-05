@@ -110,5 +110,6 @@ JSON data structures were developed and tested end-to-end using [JASOnata.](http
 
 ## References
 [rfc7179](https://www.rfc-editor.org/rfc/rfc7159.html)
+[JSON.org: Introducing JSON](https://www.json.org/json-en.html)
 
 
