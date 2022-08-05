@@ -109,7 +109,7 @@ using [onlinegdb.com](https://www.onlinegdb.com/#) as well as [Google Colab Exam
 JSON data structures were developed and tested end-to-end using [JASOnata.](https://try.jsonata.org/)
 
 ## References
-[rfc7179](https://www.rfc-editor.org/rfc/rfc7159.html)
-[JSON.org: Introducing JSON](https://www.json.org/json-en.html)
+* [rfc7179](https://www.rfc-editor.org/rfc/rfc7159.html)
+* [JSON.org: Introducing JSON](https://www.json.org/json-en.html)
 
 
